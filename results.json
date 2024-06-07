@@ -1,0 +1,412 @@
+{
+    "Buy_and_Hold_Results": [
+      {
+        "Coin": "BTC",
+        "Cumulative_Return": 0.608741,
+        "Final_Price": 1605.53,
+        "Total_Trades": 0
+      },
+      {
+        "Coin": "ETH",
+        "Cumulative_Return": 0.63186,
+        "Final_Price": 1628.6,
+        "Total_Trades": 0
+      },
+      {
+        "Coin": "BNB",
+        "Cumulative_Return": 0.896431,
+        "Final_Price": 1892.64,
+        "Total_Trades": 0
+      },
+      {
+        "Coin": "LTC",
+        "Cumulative_Return": 0.153752,
+        "Final_Price": 1151.45,
+        "Total_Trades": 0
+      },
+      {
+        "Coin": "XRP",
+        "Cumulative_Return": -0.1588,
+        "Final_Price": 839.52,
+        "Total_Trades": 0
+      }
+    ],
+    "Naive_Forecast_Results": [
+      {
+        "Coin": "BTC",
+        "MAE": 116.167,
+        "MSE": 32336.4,
+        "RMSE": 179.823,
+        "MAPE": 0.197018,
+        "DA": 47.5235
+      },
+      {
+        "Coin": "ETH",
+        "MAE": 7.02783,
+        "MSE": 120.409,
+        "RMSE": 10.9731,
+        "MAPE": 0.225268,
+        "DA": 48.0477
+      },
+      {
+        "Coin": "BNB",
+        "MAE": 1.0984,
+        "MSE": 3.08659,
+        "RMSE": 1.75687,
+        "MAPE": 0.229326,
+        "DA": 44.4123
+      },
+      {
+        "Coin": "LTC",
+        "MAE": 0.21853,
+        "MSE": 0.133055,
+        "RMSE": 0.364767,
+        "MAPE": 0.26535,
+        "DA": 46.2541
+      },
+      {
+        "Coin": "XRP",
+        "MAE": 0.00136733,
+        "MSE": 5.59999e-06,
+        "RMSE": 0.00236643,
+        "MAPE": 0.241135,
+        "DA": 44.8331
+      }
+    ],
+    "ARIMA_Results": [
+      {
+        "Coin": "BTC",
+        "RMSE": 5798.92,
+        "MAE": 4883.35,
+        "MAPE": 7.28793,
+        "R2": -1.64354,
+        "MSLE": 0.00816625,
+        "Exp_Variance": -1.16135e-06
+      },
+      {
+        "Coin": "ETH",
+        "RMSE": 477.276,
+        "MAE": 322.821,
+        "MAPE": 8.83724,
+        "R2": -0.64132,
+        "MSLE": 0.0201591,
+        "Exp_Variance": 2.20431e-07
+      },
+      {
+        "Coin": "BNB",
+        "RMSE": 22.9085,
+        "MAE": 19.8092,
+        "MAPE": 3.3256,
+        "R2": -1.31869,
+        "MSLE": 0.00152232,
+        "Exp_Variance": -3.1802e-06
+      },
+      {
+        "Coin": "LTC",
+        "RMSE": 4.82154,
+        "MAE": 4.2595,
+        "MAPE": 5.07725,
+        "R2": -3.22099,
+        "MSLE": 0.00340461,
+        "Exp_Variance": -1.03325e-05
+      },
+      {
+        "Coin": "XRP",
+        "RMSE": 0.0277779,
+        "MAE": 0.0249994,
+        "MAPE": 4.73731,
+        "R2": -3.97761,
+        "MSLE": 0.000336604,
+        "Exp_Variance": 6.31835e-06
+      }
+    ],
+    "LSTM_Results": [
+      {
+        "Coin": "BTC",
+        "RMSE": 328.579,
+        "MAE": 214.256,
+        "MAPE": 0.00337321,
+        "R2": 0.991478,
+        "MSLE": 2.81822e-05,
+        "Exp_Variance": 0.991711,
+        "Final_Balance": 1102.74,
+        "Total_Trades": 18,
+        "Time_Taken": 123.83,
+        "Correct_Trades": 6,
+        "Incorrect_Trades": 12
+      },
+      {
+        "Coin": "ETH",
+        "RMSE": 22.23,
+        "MAE": 14.2215,
+        "MAPE": 0.0042637,
+        "R2": 0.996444,
+        "MSLE": 4.33693e-05,
+        "Exp_Variance": 0.996458,
+        "Final_Balance": 1134.31,
+        "Total_Trades": 12,
+        "Time_Taken": 104.268,
+        "Correct_Trades": 4,
+        "Incorrect_Trades": 8
+      },
+      {
+        "Coin": "BNB",
+        "RMSE": 2.69864,
+        "MAE": 1.81759,
+        "MAPE": 0.00309666,
+        "R2": 0.967803,
+        "MSLE": 2.12098e-05,
+        "Exp_Variance": 0.967856,
+        "Final_Balance": 1082.2,
+        "Total_Trades": 10,
+        "Time_Taken": 45.7954,
+        "Correct_Trades": 6,
+        "Incorrect_Trades": 4
+      },
+      {
+        "Coin": "LTC",
+        "RMSE": 0.327369,
+        "MAE": 0.229881,
+        "MAPE": 0.00278583,
+        "R2": 0.98038,
+        "MSLE": 1.54549e-05,
+        "Exp_Variance": 0.980399,
+        "Final_Balance": 1088.34,
+        "Total_Trades": 10,
+        "Time_Taken": 147.456,
+        "Correct_Trades": 3,
+        "Incorrect_Trades": 7
+      },
+      {
+        "Coin": "XRP",
+        "RMSE": 0.00185173,
+        "MAE": 0.00125684,
+        "MAPE": 0.00240486,
+        "R2": 0.97764,
+        "MSLE": 1.47323e-06,
+        "Exp_Variance": 0.97764,
+        "Final_Balance": 1290.38,
+        "Total_Trades": 45,
+        "Time_Taken": 103.786,
+        "Correct_Trades": 27,
+        "Incorrect_Trades": 18
+      }
+    ],
+    "TCN_Results": [
+      {
+        "Coin": "BTC",
+        "RMSE": 261.075,
+        "MAE": 176.85,
+        "MAPE": 0.00273767,
+        "R2": 0.99462,
+        "MSLE": 1.67198e-05,
+        "Exp_Variance": 0.994744,
+        "Final_Balance": 1102.49,
+        "Total_Trades": 18,
+        "Time_Taken": 12.5831,
+        "Correct_Trades": 10,
+        "Incorrect_Trades": 8
+      },
+      {
+        "Coin": "ETH",
+        "RMSE": 18.1045,
+        "MAE": 10.928,
+        "MAPE": 0.00328825,
+        "R2": 0.997641,
+        "MSLE": 2.89256e-05,
+        "Exp_Variance": 0.997643,
+        "Final_Balance": 1128.44,
+        "Total_Trades": 18,
+        "Time_Taken": 10.1456,
+        "Correct_Trades": 12,
+        "Incorrect_Trades": 6
+      },
+      {
+        "Coin": "BNB",
+        "RMSE": 2.26712,
+        "MAE": 1.50407,
+        "MAPE": 0.00256484,
+        "R2": 0.977276,
+        "MSLE": 1.50047e-05,
+        "Exp_Variance": 0.977317,
+        "Final_Balance": 1226.19,
+        "Total_Trades": 30,
+        "Time_Taken": 12.1174,
+        "Correct_Trades": 15,
+        "Incorrect_Trades": 15
+      },
+      {
+        "Coin": "LTC",
+        "RMSE": 0.33944,
+        "MAE": 0.232985,
+        "MAPE": 0.00281636,
+        "R2": 0.978907,
+        "MSLE": 1.64499e-05,
+        "Exp_Variance": 0.978908,
+        "Final_Balance": 1151.6,
+        "Total_Trades": 14,
+        "Time_Taken": 12.2175,
+        "Correct_Trades": 9,
+        "Incorrect_Trades": 5
+      },
+      {
+        "Coin": "XRP",
+        "RMSE": 0.00191936,
+        "MAE": 0.00126784,
+        "MAPE": 0.00242404,
+        "R2": 0.975977,
+        "MSLE": 1.58112e-06,
+        "Exp_Variance": 0.975986,
+        "Final_Balance": 1330.55,
+        "Total_Trades": 47,
+        "Time_Taken": 16.3604,
+        "Correct_Trades": 22,
+        "Incorrect_Trades": 25
+      }
+    ],
+    "TCN_Bagging_Results": [
+      {
+        "Coin": "BTC",
+        "RMSE": 239.542,
+        "MAE": 159.764,
+        "MAPE": 0.00247546,
+        "R2": 0.995471,
+        "MSLE": 1.40774e-05,
+        "Exp_Variance": 0.995485,
+        "Final_Balance": 1124.68,
+        "Total_Trades": 20,
+        "Time_Taken": 1.36921,
+        "Correct_Trades": 11.6,
+        "Incorrect_Trades": 8.4
+      },
+      {
+        "Coin": "ETH",
+        "RMSE": 16.3539,
+        "MAE": 9.83457,
+        "MAPE": 0.00295817,
+        "R2": 0.998075,
+        "MSLE": 2.36301e-05,
+        "Exp_Variance": 0.99808,
+        "Final_Balance": 1071.6,
+        "Total_Trades": 10.8,
+        "Time_Taken": 1.23691,
+        "Correct_Trades": 5.2,
+        "Incorrect_Trades": 5.6
+      },
+      {
+        "Coin": "BNB",
+        "RMSE": 2.03512,
+        "MAE": 1.36187,
+        "MAPE": 0.00232046,
+        "R2": 0.981689,
+        "MSLE": 1.20632e-05,
+        "Exp_Variance": 0.981788,
+        "Final_Balance": 1161.08,
+        "Total_Trades": 22.4,
+        "Time_Taken": 1.44807,
+        "Correct_Trades": 11.6,
+        "Incorrect_Trades": 10.8
+      },
+      {
+        "Coin": "LTC",
+        "RMSE": 0.3077,
+        "MAE": 0.212313,
+        "MAPE": 0.00256636,
+        "R2": 0.982667,
+        "MSLE": 1.35322e-05,
+        "Exp_Variance": 0.98301,
+        "Final_Balance": 1206.24,
+        "Total_Trades": 22,
+        "Time_Taken": 1.25642,
+        "Correct_Trades": 11.4,
+        "Incorrect_Trades": 10.6
+      },
+      {
+        "Coin": "XRP",
+        "RMSE": 0.00181815,
+        "MAE": 0.001215,
+        "MAPE": 0.00232267,
+        "R2": 0.978443,
+        "MSLE": 1.4186e-06,
+        "Exp_Variance": 0.978741,
+        "Final_Balance": 1289.37,
+        "Total_Trades": 45,
+        "Time_Taken": 1.23195,
+        "Correct_Trades": 24.2,
+        "Incorrect_Trades": 20.8
+      }
+    ],
+    "TCN_Boosting_Results": [
+      {
+        "Coin": "BTC",
+        "RMSE": 39200.5,
+        "MAE": 39198.9,
+        "MAPE": 0.604987,
+        "R2": -120.291,
+        "MSLE": 0.22408,
+        "Exp_Variance": 0.989836,
+        "Final_Balance": 1125.09,
+        "Total_Trades": 18,
+        "Time_Taken": 1.53149,
+        "Correct_Trades": 12,
+        "Incorrect_Trades": 6
+      },
+      {
+        "Coin": "ETH",
+        "RMSE": 1759.77,
+        "MAE": 1759.64,
+        "MAPE": 0.543795,
+        "R2": -21.2849,
+        "MSLE": 0.189325,
+        "Exp_Variance": 0.996536,
+        "Final_Balance": 1088.41,
+        "Total_Trades": 15.6,
+        "Time_Taken": 1.38932,
+        "Correct_Trades": 9.2,
+        "Incorrect_Trades": 6.4
+      },
+      {
+        "Coin": "BNB",
+        "RMSE": 366.673,
+        "MAE": 366.654,
+        "MAPE": 0.623061,
+        "R2": -593.41,
+        "MSLE": 0.233998,
+        "Exp_Variance": 0.937514,
+        "Final_Balance": 1135.67,
+        "Total_Trades": 18.8,
+        "Time_Taken": 1.2434,
+        "Correct_Trades": 11.6,
+        "Incorrect_Trades": 7.2
+      },
+      {
+        "Coin": "LTC",
+        "RMSE": 37.7796,
+        "MAE": 37.7781,
+        "MAPE": 0.456934,
+        "R2": -260.296,
+        "MSLE": 0.138869,
+        "Exp_Variance": 0.97959,
+        "Final_Balance": 1219.98,
+        "Total_Trades": 27.2,
+        "Time_Taken": 1.35692,
+        "Correct_Trades": 15.8,
+        "Incorrect_Trades": 11.4
+      },
+      {
+        "Coin": "XRP",
+        "RMSE": 0.255677,
+        "MAE": 0.255668,
+        "MAPE": 0.490056,
+        "R2": -425.293,
+        "MSLE": 0.0241164,
+        "Exp_Variance": 0.969399,
+        "Final_Balance": 1227.69,
+        "Total_Trades": 45,
+        "Time_Taken": 1.24509,
+        "Correct_Trades": 25.4,
+        "Incorrect_Trades": 19.6
+      }
+    ]
+  }
+  
