@@ -13,7 +13,7 @@ The primary aim of this research is to optimise the profitability of cryptocurre
 The objectives are therefore as follows:
 - Develop and implement a forecasting model tailored for cryptocurrency price prediction, with the aim of enhancing accuracy and reliability in forecasting future price movements.
 - Train and optimise the model using historical price data from several cryptocurrencies.
-- Evaluate the forecasting performance of the TCN based on metrics such as Root Mean Square Error (RMSE), Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), and R-Squared ($$R^2$$).
+- Evaluate the forecasting performance of the TCN based on metrics such as Root Mean Square Error (RMSE), Mean Absolute Error (MAE), Mean Absolute Percentage Error (MAPE), and R-Squared.
 - Compare the performance of the TCN with the more established Long Short-Term Memory (LSTM) model, as well as other baseline models, including Buy-and-Hold, Naïve Forecast, and the traditional ARIMA model.
 - Conduct trading simulations to assess the real-world applicability and effectiveness of the forecasting models.
 
